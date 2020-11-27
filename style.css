@@ -116,6 +116,14 @@
     text-align: center;
   }
 
+  h1{
+    text-align: center;
+  }
+
+  hr{
+    width: 25%;
+  }
+
     @media screen and (max-width: 750px) {
     ul.topnav li.right, 
     ul.topnav li {float: none;}
