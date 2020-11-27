@@ -96,9 +96,7 @@
     text-align: justify;
   }
 
-  h2{
-      padding-left: 25%;
-  }
+  
 
   .pl{
     text-align: justify;
@@ -117,6 +115,14 @@
   }
 
   h1{
+    text-align: center;
+  }
+
+  h2{
+      padding-left: 25%;
+  }
+
+  h3{
     text-align: center;
   }
 
