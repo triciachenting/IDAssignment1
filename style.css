@@ -1,0 +1,115 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text{
+    display: flex;
+    padding: 50px;
+    padding-top: 200px;
+    width: 600px;
+    height: 200px;
+    text-align: justify;
+    flex-direction: column;
+}
+
+  body {
+      margin: 0;
+      background-repeat: no-repeat;
+      background-image: url("Pictures/background.jpg");
+      background-size: cover;
+      font-family: "Times New Roman", Times, serif;
+    }
+  
+  ul.topnav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(104, 37, 37);
+    width: 100%;
+    justify-content: flex-end;
+    float: right;
+  }
+  
+  nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:25px;
+  }
+
+
+  
+  ul.topnav li a {
+    display: flex;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+
+    .year{
+      border: none;
+      padding: 50px;
+      padding-top:50px;
+      width: 200px;
+      height: 100px;
+      text-align: justify;
+  }
+  
+  .flexyy{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  
+  }
+
+  .yeett{
+    border: none;
+    padding: 30px;
+    width: 200px;
+    height: 30px;
+    text-align: justify;
+}
+  .ye{
+    border: none;
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+  }
+
+  h2{
+      padding-left: 25%;
+  }
+
+  .pl{
+    text-align: center;
+  }
+
+    @media screen and (max-width: 750px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+      .text{
+        padding-top: 10px;
+    }
+  }
+
+  /*!!!!! NAV BAR IN REVERSE*/
